@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -n "Please enter a Key-Vault Name: "
-read $keyvaultname
+read keyvaultname
 
 # Create an App Service app with deployment from GitHub
 # set -e # exit if error
